@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    
 }
 html, body{
     font-family: "Roboto", sans-serif;
@@ -21,7 +22,9 @@ button{
     margin-top: 20px;
 
 }
-
+.clear{
+    clear: both;
+}
 /* HEADER */
 
 .header i{
@@ -73,6 +76,9 @@ p{
 }
 
 /* OUR CAMPUS */
+.ourCampus{
+    margin-top: 50px;
+}
 .ourCampus__item__detail{
     float: left;
     width: 33%;
@@ -83,3 +89,40 @@ p{
 }
 
 /* INTRO */
+.intro{
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 150px;
+    margin-top: 50px;
+}
+
+.intro__item{
+    float: left;
+    width: 25%;
+}
+.detail__list{
+    float: left;
+    width: 50%;
+}
+.intro__item__detail{
+    padding: 50px 0;
+    width: 100%;
+}
+.intro__item p{
+    color: #212529;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+.detail__list .numb{
+    font-size: 55px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.detail__list .intro__title{
+    position: relative;
+    right: 50%;
+    top: 10px;
+}
+
